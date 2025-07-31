@@ -13,13 +13,13 @@ def login_page():
                 rx.image(src="logo.png", alt="Logo"),
                 rx.text("Welcome to SNSS Global Services", weight="bold", size="9", align="center"),
                 rx.text("Enterprise Resource Planning System"),
-                rx.button(rx.image(src="logo.png", width="20px", height="20px"), rx.text("Continue with google", padding = "3em")),
-                rx.text("Application under development", padding = "3em"),
+                rx.button(rx.image(src="logo.png", width="20px", height="20px"), rx.text("Continue with google"),margin="3em"),
+                rx.text("Application under development"),
                 align="center"
             ),
             width="450px", height="539px", padding="50px"
         ),
-        justify="center"
+        justify="center", margin="150em"
     )
 
 
